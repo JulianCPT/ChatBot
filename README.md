@@ -1,38 +1,37 @@
 <div align="center">
 
-# 🤖 ChatBot Doméstico
-### Control de LEDs por Voz o Texto
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=220&section=header&text=ChatBot%20Doméstico&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Control%20de%20LEDs%20por%20Voz%20o%20Texto&descAlignY=58&descSize=18)
 
 *Ingeniería Mecatrónica · Universidad Militar Nueva Granada*
 
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=3AAFFF&center=true&vCenter=true&width=560&lines=%22enciende+el+azul+y+el+naranja%22;%22apaga+el+naranja+y+prende+el+azul%22;%22enciende+todo%22" alt="Typing SVG" />
+
+<br/>
+
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-Arduino-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![Groq](https://img.shields.io/badge/LLM-Groq-F55036?style=for-the-badge)
-![License](https://img.shields.io/badge/status-académico-informational?style=for-the-badge)
+![Groq](https://img.shields.io/badge/LLM-Groq-F55036?style=for-the-badge&logo=lightning&logoColor=white)
+![Voice](https://img.shields.io/badge/Voz-Google%20Speech-4285F4?style=for-the-badge&logo=googleassistant&logoColor=white)
+![Status](https://img.shields.io/badge/estado-académico-6E40C9?style=for-the-badge)
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:203A43&height=3&section=header" width="100%"/>
 
 ## ✨ ¿Qué hace este proyecto?
 
 Un chatbot en **Python** que enciende o apaga dos LEDs — 🔵 **azul** y 🟠 **naranja** —
-a partir de lo que el usuario **habla o escribe** en lenguaje natural. Usa:
+a partir de lo que el usuario **habla o escribe** en lenguaje natural.
 
-| Componente | Rol |
-|---|---|
-| 🎙️ **Reconocimiento de voz** | Transcribe el audio del micrófono a texto |
-| 🧠 **Groq (LLM)** | Interpreta la intención del usuario y la traduce a un JSON de acciones |
-| 🔌 **Comunicación serie (USB)** | Envía comandos simples ya decididos a la ESP32 |
-| 💡 **ESP32** | Ejecuta la orden física moviendo los pines GPIO |
+<div align="center">
 
-El chatbot entiende **peticiones combinadas** en un solo mensaje:
+| 🎙️ Voz | 🧠 Groq (LLM) | 🔌 Serie (USB) | 💡 ESP32 |
+|:---:|:---:|:---:|:---:|
+| Transcribe el audio a texto | Interpreta la intención → JSON | Envía comandos ya decididos | Mueve los pines GPIO |
 
-> 💬 *"enciende el azul y el naranja"*
-> 💬 *"apaga el naranja y prende el azul"*
-> 💬 *"enciende todo"*
+</div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:203A43&height=3&section=header" width="100%"/>
 
 ## 📐 Arquitectura general
 
@@ -71,7 +70,7 @@ El chatbot entiende **peticiones combinadas** en un solo mensaje:
 > cable USB y mueve pines. A diferencia de un proyecto con MQTT/WiFi,
 > aquí la comunicación es **directa por cable**, no por red.
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:203A43&height=3&section=header" width="100%"/>
 
 ## 📁 Estructura del repositorio
 
@@ -84,9 +83,13 @@ ChatBot/
 └── README.md
 ```
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:203A43&height=3&section=header" width="100%"/>
 
 ## ⚙️ Requisitos
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=python,arduino,cpp&theme=dark" />
+</div>
 
 - ✅ Python 3.10+
 - ✅ Cuenta gratuita en [Groq](https://console.groq.com/) (API key)
@@ -110,7 +113,7 @@ pip install requests pyserial SpeechRecognition pyaudio
 > pipwin install pyaudio
 > ```
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:203A43&height=3&section=header" width="100%"/>
 
 ## 🔑 Configurar la API key de Groq
 
@@ -129,7 +132,7 @@ API_KEY = os.environ.get("GROQ_API_KEY")
 $env:GROQ_API_KEY = "tu_api_key_aqui"
 ```
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:203A43&height=3&section=header" width="100%"/>
 
 ## ▶️ Cómo correrlo
 
@@ -145,12 +148,12 @@ $env:GROQ_API_KEY = "tu_api_key_aqui"
 4. En la consola:
 
    | Acción | Cómo |
-   |---|---|
+   |:---|:---|
    | 💬 Comando por texto | Escríbelo y presiona `Enter` |
    | 🎙️ Comando por voz | Deja el campo vacío y presiona `Enter` |
    | 🚪 Salir | Escribe `salir` |
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:203A43&height=3&section=header" width="100%"/>
 
 ## 🧩 Explicación del código, bloque por bloque
 
@@ -363,7 +366,7 @@ comando `ESTADO` sin depender de leer el pin físico.
 
 </details>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:203A43&height=3&section=header" width="100%"/>
 
 ## 🧠 Conceptos clave
 
@@ -433,7 +436,7 @@ fuente, para no subirlos por accidente a GitHub.
 
 </details>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:203A43&height=3&section=header" width="100%"/>
 
 ## 🔒 Nota de privacidad
 
@@ -441,12 +444,12 @@ fuente, para no subirlos por accidente a GitHub.
 > lo que el audio grabado se envía a un servidor externo para
 > transcribirse.
 
----
-
 <div align="center">
 
 ## 👤 Autor
 
 **Julián** · Ingeniería Mecatrónica · Universidad Militar Nueva Granada
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=120&section=footer)
 
 </div>
