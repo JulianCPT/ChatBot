@@ -4,7 +4,7 @@ import serial                      # Libreria "pyserial" para comunicarse con la
 import speech_recognition as sr    # Libreria para reconocimiento de voz
 
 # Aquí voy a usar mi APIKEY
-API_KEY = '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'
+API_KEY = 'Aca debe ir tu Api'
 API_URL = 'https://api.groq.com/openai/v1/chat/completions'
 
 # Configuración del puerto serie hacia la ESP32
