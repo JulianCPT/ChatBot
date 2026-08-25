@@ -75,9 +75,9 @@ a partir de lo que el usuario **habla o escribe** en lenguaje natural.
 
 **GIF de funcionamiento** — vista rápida del control de LEDs en acción:
 
-<video src="docs/videos/GIF%20FUNCIONAMIENTO.mp4" controls muted loop width="480">
+<video src="docs/videos/GIF%20FUNCIONAMIENTO.gif" controls muted loop width="480">
   Tu navegador no soporta la reproducción de video. Descárgalo aquí:
-  <a href="docs/videos/GIF%20FUNCIONAMIENTO.mp4">GIF FUNCIONAMIENTO.mp4</a>
+  <a href="docs/videos/GIF%20FUNCIONAMIENTO.gif">GIF FUNCIONAMIENTO.mp4</a>
 </video>
 
 </div>
