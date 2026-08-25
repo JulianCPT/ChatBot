@@ -40,21 +40,21 @@ a partir de lo que el usuario **habla o escribe** en lenguaje natural.
 <table>
   <tr>
     <td align="center">
-      <img src="docs/Encendido Ambos Leds.jpeg" width="260"/><br/>
+      <img src="docs/imágenes/Encendido Ambos Leds.jpeg" width="260"/><br/>
       <sub>Ambos LEDs encendidos</sub>
     </td>
     <td align="center">
-      <img src="docs/Encendido Led Azul y Apagado Led Naranja.jpeg" width="260"/><br/>
+      <img src="docs/imágenes/Encendido Led Azul y Apagado Led Naranja.jpeg" width="260"/><br/>
       <sub>LED azul encendido / naranja apagado</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="docs/Encendido Led Naranja.jpeg" width="260"/><br/>
+      <img src="docs/imágenes/Encendido Led Naranja.jpeg" width="260"/><br/>
       <sub>LED naranja encendido</sub>
     </td>
     <td align="center">
-      <img src="docs/Salida Del Terminal.jpg" width="260"/><br/>
+      <img src="docs/imágenes/Salida Del Terminal.jpg" width="260"/><br/>
       <sub>Salida del chatbot en terminal</sub>
     </td>
   </tr>
@@ -69,8 +69,8 @@ a partir de lo que el usuario **habla o escribe** en lenguaje natural.
 > GitHub no reproduce videos `.mp4` alojados en el repo directamente dentro del README,
 > así que se dejan como enlaces descargables/reproducibles desde el navegador.
 
-- ▶️ [**Funcionamiento del ChatBot**](docs/Funcionamiento%20Chatbot.mp4) — demo completa por voz y texto.
-- ▶️ [**GIF de funcionamiento**](docs/GIF%20FUNCIONAMIENTO.mp4) — vista rápida del control de LEDs en acción.
+- ▶️ [**Funcionamiento del ChatBot**](docs/videos/Funcionamiento%20Chatbot.mp4) — demo completa por voz y texto.
+- ▶️ [**GIF de funcionamiento**](docs/videos/GIF%20FUNCIONAMIENTO.mp4) — vista rápida del control de LEDs en acción.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:203A43&height=3&section=header" width="100%"/>
 
@@ -121,12 +121,14 @@ ChatBot/
 ├── esp32_leds.ino       # Firmware del ESP32
 ├── requirements.txt
 ├── docs/                # Capturas y videos de demostración
-│   ├── Encendido Ambos Leds.jpeg
-│   ├── Encendido Led Azul y Apagado Led Naranja.jpeg
-│   ├── Encendido Led Naranja.jpeg
-│   ├── Salida Del Terminal.jpg
-│   ├── Funcionamiento Chatbot.mp4
-│   └── GIF FUNCIONAMIENTO.mp4
+│   ├── imágenes/
+│   │   ├── Encendido Ambos Leds.jpeg
+│   │   ├── Encendido Led Azul y Apagado Led Naranja.jpeg
+│   │   ├── Encendido Led Naranja.jpeg
+│   │   └── Salida Del Terminal.jpg
+│   └── videos/
+│       ├── Funcionamiento Chatbot.mp4
+│       └── GIF FUNCIONAMIENTO.mp4
 ├── .gitignore
 └── README.md
 ```
