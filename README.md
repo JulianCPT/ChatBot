@@ -40,21 +40,21 @@ a partir de lo que el usuario **habla o escribe** en lenguaje natural.
 <table>
   <tr>
     <td align="center">
-      <img src="docs/imagenes/Encendido%20Ambos%20Leds.jpeg" width="260"/><br/>
+      <img src="docs/imagenes/Encendido%20Ambos%20Leds.jpeg" width="480"/><br/>
       <sub>Ambos LEDs encendidos</sub>
     </td>
     <td align="center">
-      <img src="docs/imagenes/Encendido%20Led%20Azul%20y%20Apagado%20Led%20Naranja.jpeg" width="260"/><br/>
+      <img src="docs/imagenes/Encendido%20Led%20Azul%20y%20Apagado%20Led%20Naranja.jpeg" width="480"/><br/>
       <sub>LED azul encendido / naranja apagado</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="docs/imagenes/Encendido%20Led%20Naranja.jpeg" width="260"/><br/>
+      <img src="docs/imagenes/Encendido%20Led%20Naranja.jpeg" width="480"/><br/>
       <sub>LED naranja encendido</sub>
     </td>
     <td align="center">
-      <img src="docs/imagenes/Salida%20Del%20Terminal.jpg" width="260"/><br/>
+      <img src="docs/imagenes/Salida%20Del%20Terminal.jpg" width="480"/><br/>
       <sub>Salida del chatbot en terminal</sub>
     </td>
   </tr>
