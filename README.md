@@ -33,6 +33,57 @@ a partir de lo que el usuario **habla o escribe** en lenguaje natural.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:203A43&height=3&section=header" width="100%"/>
 
+## 📸 Capturas
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="docs/imagenes/Encendido%20Ambos%20Leds.jpeg" width="480"/><br/>
+      <sub>Ambos LEDs encendidos</sub>
+    </td>
+    <td align="center">
+      <img src="docs/imagenes/Encendido%20Led%20Azul%20y%20Apagado%20Led%20Naranja.jpeg" width="480"/><br/>
+      <sub>LED azul encendido / naranja apagado</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="docs/imagenes/Encendido%20Led%20Naranja.jpeg" width="480"/><br/>
+      <sub>LED naranja encendido</sub>
+    </td>
+    <td align="center">
+      <img src="docs/imagenes/Salida%20Del%20Terminal.jpg" width="480"/><br/>
+      <sub>Salida del chatbot en terminal</sub>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:203A43&height=3&section=header" width="100%"/>
+
+## 🎥 Video de funcionamiento
+
+> GitHub no reproduce videos `.mp4` alojados en el repo directamente dentro del README,
+> así que se dejan como enlaces descargables/reproducibles desde el navegador.
+
+- ▶️ [**Funcionamiento del ChatBot**](docs/videos/Funcionamiento%20Chatbot.mp4) — demo completa por voz y texto.
+
+<div align="center">
+
+**GIF de funcionamiento** — vista rápida del control de LEDs en acción:
+
+<video src="docs/videos/GIF%20FUNCIONAMIENTO.mp4" controls muted loop width="480">
+  Tu navegador no soporta la reproducción de video. Descárgalo aquí:
+  <a href="docs/videos/GIF%20FUNCIONAMIENTO.mp4">GIF FUNCIONAMIENTO.mp4</a>
+</video>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:203A43&height=3&section=header" width="100%"/>
+
 ## 📐 Arquitectura general
 
 ```
@@ -76,9 +127,18 @@ a partir de lo que el usuario **habla o escribe** en lenguaje natural.
 
 ```
 ChatBot/
-├── chatbot.py         # Programa principal en Python (PC)
-├── esp32_leds.ino      # Firmware del ESP32
+├── chatbot.py          # Programa principal en Python (PC)
+├── esp32_leds.ino       # Firmware del ESP32
 ├── requirements.txt
+├── docs/                # Capturas y videos de demostración
+│   ├── imagenes/
+│   │   ├── Encendido Ambos Leds.jpeg
+│   │   ├── Encendido Led Azul y Apagado Led Naranja.jpeg
+│   │   ├── Encendido Led Naranja.jpeg
+│   │   └── Salida Del Terminal.jpg
+│   └── videos/
+│       ├── Funcionamiento Chatbot.mp4
+│       └── GIF FUNCIONAMIENTO.mp4
 ├── .gitignore
 └── README.md
 ```
