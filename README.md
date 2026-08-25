@@ -75,11 +75,7 @@ a partir de lo que el usuario **habla o escribe** en lenguaje natural.
 
 **GIF de funcionamiento** — vista rápida del control de LEDs en acción:
 
-<div align="center">
-
-**GIF de funcionamiento** — vista rápida del control de LEDs en acción:
-
-<img src="https://raw.githubusercontent.com/JulianCPT/ChatBot/main/docs/videos/GIF%20FUNCIONAMIENTO.gif" width="480" alt="GIF de funcionamiento" />
+<img src="docs/videos/GIF%20FUNCIONAMIENTO.gif" width="480" alt="GIF de funcionamiento" />
 
 </div>
 
